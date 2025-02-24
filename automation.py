@@ -13,8 +13,8 @@ load_dotenv()
 # SMTP configuration
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-your_email = os.getenv("EMAIL")
-your_password = os.getenv("PASSWORD")
+your_email = os.getenv("SENDER_EMAIL")
+your_password = os.getenv("SENDER_PASSWORD")
 
 # CC email list
 cc_email_list = []
