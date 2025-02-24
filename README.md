@@ -85,6 +85,7 @@ This document provides guidelines for utilizing the email automation scripts eff
 
 -   **`automation.py`** – Main automation script for partnership emails.
 -   **`ops-speakers-automation.py`** – Automation script for operations, specifically for speakership emails.
+-   **`email-template\`** – Contains assets for html templates.
 
 ## Partnership Emails
 

@@ -53,7 +53,7 @@ if html_template:  # Proceed only if the template was read successfully
     send_email(
         to_list=["recipient1@example.com", "recipient2@example.com"],
         cc_list=["cc1@example.com", "cc2@example.com"],
-        subject="Test Email",
+        subject="Confirmation of Topic Proposal - Arduino Day Philippines 2025",
         html_template=html_template,
         smtp_server="smtp.gmail.com",
         smtp_port=587
